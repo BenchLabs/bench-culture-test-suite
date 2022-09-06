@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: #181a1f;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 16px;
+  border-bottom: 2px solid white;
+  background-color: #343436;
+
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.header p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.controls ul {
+  padding: 0 20px;
+}
+
+.test-runner {
+  margin-left: 20px;
+}
+
+.test-runner h2 {
+  margin-bottom: 5px;
+}
+
+.test-runner ol {
+  margin-top: 5px;
+}
+
+.test-runner .principle {
+  opacity: 50%;
+}
+
+.test-runner .principle.active,
+.test-runner .principle.done {
+  opacity: 100%;
+}
+
+.test-runner .axiom {
+  padding: 1px 0;
+  opacity: .8;
+}
+
+.test-runner .axiom.done {
+  opacity: 1;
+}
+
+.test-runner .axiom.active {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.test-runner .passed {
+  font-weight: bold;
+  color: rgb(6, 175, 6);
+}
+
+.test-runner .unsure {
+  font-weight: bold;
+  color: yellow;
+}
+
+.test-runner .failed {
+  font-weight: bold;
+  color: red;
+}
+
+.test-runner .na {
+  font-weight: bold;
+  color: rgb(139, 129, 204);
+}
+
+.blinking-cursor {
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    background-color: white;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-color: transparent;
   }
+}
+
+.consistency-score {
+  font-weight: bold;
 }
