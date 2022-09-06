@@ -4,6 +4,10 @@ This app simulates a command-line test runner for conversations. To learn about 
 
 To view the principles and their supporting axioms, visit their JS [definition](/src/principles.js).
 
+## Deploying to Github pages
+
+This app is available at https://benchlabs.github.io/bench-culture-test-suite/. To deploy a new version, simply run `yarn deploy`.
+
 ## Create React App Specifics
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Below please find their boilerplate README.
