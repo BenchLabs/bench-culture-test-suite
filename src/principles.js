@@ -2,11 +2,11 @@ export default [
   {
     name: 'Create Value',
     axioms: [
-      "We make a difference in this world by taking responsibility for its improvement",
-      "To help small business owners at scale, we need to build a thriving business",
+      "Value creation starts with a commitment to improve the status quo",
+      "Building a thriving business will allow us to help small business owners at scale",
       "We find our best solutions by working backwards from customer needs",
-      "If our customers love the things we build, they will use them a lot",
-      "Saying “no” to great ideas means we're working on even better ones",
+      "We win by increasing engagement while reducing toil",
+      "Saying “no” to great ideas means we’re working on even better ones",
       "Rapid iterations create short feedback loops that inform great solutions",
       "If we can't measure our impact, we can't assess if we've created value",
     ]
@@ -27,9 +27,9 @@ export default [
     axioms: [
       "High performers all share one quality: they make their teams better",
       "Diverse perspectives and experiences contribute to better outcomes for everyone",
-      "Effective organizations use a narrow set of objectives to coordinate work across teams",
+      "Effective organizations use a small set of objectives to coordinate work across teams",
       "Social bonds increase empathy, mutual respect, and our ability to do great things",
-      "The most effective teams have a clear understanding of how to improve their domain, the skills to do so, and the passion to follow through",
+      "For a team to succeed, they need adequate competency, context, and confidence",
       "We are successful in setting timelines when they push us without burning us out",
       "We break silos and build trust by making our goals, progress, and learnings readily available and easily digestible",
     ]

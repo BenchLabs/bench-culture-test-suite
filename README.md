@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Bench TPD Culture Test Suite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app simulates a command-line test runner for conversations. To learn about this system, please visit our [handbook](https://github.com/BenchLabs/bench-technology-handbook/blob/master/culture-and-principles.md).
 
-## Available Scripts
+To view the principles and their supporting axioms, visit their JS [definition](/src/principles.js).
+
+## Create React App Specifics
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Below please find their boilerplate README.
+
+## Available Scripts (From Create React App)
 
 In the project directory, you can run:
 
