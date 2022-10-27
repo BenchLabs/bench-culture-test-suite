@@ -2,6 +2,8 @@
 
 This app simulates a command-line test runner for conversations. To learn about this system, please visit our [handbook](https://github.com/BenchLabs/bench-technology-handbook/blob/master/culture-and-principles.md).
 
+To use the tool, visit [https://benchlabs.github.io/bench-culture-test-suite/](https://benchlabs.github.io/bench-culture-test-suite/)
+
 To view the principles and their supporting axioms, visit their JS [definition](/src/principles.js).
 
 ## Create React App Specifics
